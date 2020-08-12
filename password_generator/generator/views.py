@@ -29,3 +29,7 @@ def password(request):
     }
     return render(request,'generator/password_view.html', content)
 
+def aboutme(request):
+    return render(request, 'generator/aboutme.html')
+
+
